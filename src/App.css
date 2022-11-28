@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+.navbarend
+{
+  justify-content: flex-end !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MainContainer
+{
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageContainer
+{
+  width: 80%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.FirstContainer
+{
+  padding: 80px;
+}
+.MainDiv
+{
+  padding: 20px;
+}
+.Firstin
+{
+  padding: 30px;
+}
+.buttonlog
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  width:30%;
+}
+.NeedMain
+{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #352e44;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.needHead
+{
+  margin-top: 50px;
+}
+.contactbutton
+{
+  margin-bottom: 50px;
+}
+.cardmain
+{
+  display: flex;
+}
+.dia{
+  padding: 100px;
+  text-align: center;
+}
+.cardparagraph
+{
+  text-align: justify;
+}
+.cardbox
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+}
+.roundimg
+{
+  margin-bottom: 10px;
+}
+.modal-footer
+{
+  justify-content: center !important;
+}
+.contactctbtn
+{
+  background-color: #8F00FF !important;
+  color: white !important;
+}
+.modal-header
+{
+  background-color: #352e44;
+  color: white;
+}
+.logbuttonmodal{
+  background-color: #352e44  !important;
+  color: white  !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1000px)
+{
+  .MainContainer
+  {
+    flex-direction: column-reverse;
   }
-  to {
-    transform: rotate(360deg);
+  .cardmain
+  {
+    flex-direction: column;
+  }
+  .FirstContainer
+  {
+    padding: 1px;
+  }
+  .BannerIMG
+  {
+    text-align: center;
+  }
+  .Firstin
+  {
+    text-align: justify;
   }
 }
